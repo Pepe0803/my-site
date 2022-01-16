@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+h1 {
+
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0;
+  font-size: 5.625rem;
+  color:#66BFBF;
+}
+
+h2 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 2.5rem;
+ color: #66BFBF;
+font-weight: normal;
+
+}
+
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ color: #11999E;
+}
+a {
+  color: #11999E;
+}
+p{
+    line-height: 2;
+}
+.description{
+  width: 30%;
+  margin: auto;
+
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.middle-container{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 100%
+}
+
+.skill1, .skill2 {
+  width: 25%;
+  border-radius: 100%;
+  text-align: center;
+
+
+}
+.skill1{
+  float: left;
+  margin-right: 30px;
+}
+.skill2{
+  float: right;
+  margin-left: 30px;
+}
+.bottom-container{
+  text-align: center;
+}
+.skill-row{
+  margin: 100px auto 100px;
+  width: 50%;
+  text-align: left;
+
+}
+.btn {
+  margin: 50px auto 50px;
+  display: inline-block;
+  background: #11cdd4;
+
+
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 20px;
+}
+.footer-text{
+  color:#EAF6F6;
+  margin-top: 30px;
+
+}
+.footer-link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 40px;
+}
+.footer-link:hover{
+  color: #EaF6F6;
+  cursor: pointer;
+}
+
+.footer-link:last-of-type{
+  margin-right: 0
+}
+hr{
+  margin: 100px auto;
+  background-color:inherit;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  width: 5%;
+}
